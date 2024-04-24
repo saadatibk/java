@@ -1,6 +1,6 @@
 public class MyClass {
     public static void main(String args[]) {
-        int[] my_array = {1,3,4,5,6};
+        int[] my_array = {1,3,4,5,6,48,72};
         int sum = 0;
 
         for(int i = 0; i < my_array.length; i++){
