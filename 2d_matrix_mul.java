@@ -4,9 +4,9 @@ class GFG {
   
 	// Function to multiply 
 	// two matrices A[][] and B[][] 
-	static void multiplyMatrix(int row1, int col1, 
-							int A[][], int row2, 
-							int col2, int B[][]) 
+	static void multiplyMatrix(int row1, int col1,
+				   int A[][], int row2, 
+				   int col2, int B[][]) 
 	{ 
 		int i, j, k; 
 
