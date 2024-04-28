@@ -39,21 +39,4 @@ class GFG {
 		printMatrix(C, row1, col2); 
 	} 
 
-	// Driver code 
-	public static void main(String[] args) 
-	{ 
-
-		int row1 = 4, col1 = 3, row2 = 3, col2 = 4; 
-
-		int A[][] = { { 1, 1, 1 }, 
-					{ 2, 2, 2 }, 
-					{ 3, 3, 3 }, 
-					{ 4, 4, 4 } }; 
-
-		int B[][] = { { 1, 1, 1, 1 }, 
-					{ 2, 2, 2, 2 }, 
-					{ 3, 3, 3, 3 } }; 
-
-		multiplyMatrix(row1, col1, A, row2, col2, B); 
-	} 
 }
