@@ -4,12 +4,6 @@ class Solution {
         int[] prefix_balance = new int[n];
         int s = 0;
         int balance = 0;
-
-    for (int i = 0; i < n; i++ ){
-        if(nums[i]>=0) s++;
-    }
-
-    if(s == 2) return s;
     
     for (int i = 0; i < n; i++ ){
         if (nums[i] == 0 ) balance--;
